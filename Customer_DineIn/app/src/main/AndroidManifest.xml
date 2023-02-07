@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.customer_dinein">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+
+    <application
+        tools:replace="android:label"
+        android:allowBackup="true"
+        android:icon="@mipmap/dinein_app_logo"
+        android:label="@string/dinein"
+        android:roundIcon="@mipmap/dinein_app_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Customer_DineIn">
+        <activity
+            android:name="com.example.customer_dinein.CustomerHomeScreen"
+            android:label=""
+            android:theme="@style/Theme.Customer_DineIn.NoActionBar"/>
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.customer_dinein.WelcomeScreenActivity"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.example.customer_dinein.SendOTPActivity"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.example.customer_dinein.VerifyOTPActivity"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.example.customer_dinein.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.customer_dinein.AddToCartMenuItemScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.customer_dinein.OrderPlacedTimerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.customer_dinein.GenerateBillActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.customer_dinein.FeedbackActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.customer_dinein.ContactUsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.customer_dinein.OrderScreenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.customer_dinein.PaymentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.customer_dinein.PaymentOTPActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

@@ -1,0 +1,92 @@
+{
+  "project_info": {
+    "project_number": "1007015278403",
+    "project_id": "dinein-2ecfd",
+    "storage_bucket": "dinein-2ecfd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007015278403:android:6ea0dc2006085ca70a61f6",
+        "android_client_info": {
+          "package_name": "com.example.customer_dinein"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007015278403-ae05smks7kmek2trfdu4ucchnkdld5c1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.customer_dinein",
+            "certificate_hash": "1bcc91eb98eef712e1398c0528233717ac23df3c"
+          }
+        },
+        {
+          "client_id": "1007015278403-kudcdhi0k94jre00cnl1u7q5g6c12vdp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOc2WCVUMNDsVOeVLLKpJIaRkgGCqHFK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007015278403-kudcdhi0k94jre00cnl1u7q5g6c12vdp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007015278403:android:9c8c980f464b27e70a61f6",
+        "android_client_info": {
+          "package_name": "com.example.newdinein"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007015278403-hek5jflevg5p8ajvjtr383k1siurnak1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.newdinein",
+            "certificate_hash": "1bcc91eb98eef712e1398c0528233717ac23df3c"
+          }
+        },
+        {
+          "client_id": "1007015278403-uktvr37mhqt7fb9k520g43qgfl9o2crc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.newdinein",
+            "certificate_hash": "ef180f78f8be6ff43df188c12c18c73058825b46"
+          }
+        },
+        {
+          "client_id": "1007015278403-kudcdhi0k94jre00cnl1u7q5g6c12vdp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOc2WCVUMNDsVOeVLLKpJIaRkgGCqHFK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007015278403-kudcdhi0k94jre00cnl1u7q5g6c12vdp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

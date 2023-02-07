@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">DineIn</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="we_will_send_you_an_one_time_password_on_this_mobile_number">We will send you an One Time Password on this mobile number</string>
+    <string name="enter_mobile_number">Mobile number</string>
+    <string name="_91">+91</string>
+    <string name="_1234567890">1234567890</string>
+    <string name="get_otp">GET OTP</string>
+    <string name="enter_the_otp_sent_to">Enter the OTP sent to</string>
+    <string name="didn_t_receive_the_otp">Didn\'t receive the OTP?</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="verify">Verify</string>
+    <string name="you_will_receive_an_otp_on_this_mobile_number">You will receive an OTP on this mobile number</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="signup">Sign Up</string>
+    <string name="dinein">DineIn</string>
+    <string name="we_ll_send_you_an_one_time_password_on_your_mobile_number">We\'ll send you an One Time Password on your mobile number</string>
+    <string name="sign_in">Sign In</string>
+    <string name="enter_the_otp_sent_to_you_on">Enter the OTP sent to you on</string>
+    <string name="get_started">Get Started</string>
+    <string name="discover_new_tasting_experiences">Discover new tasting experiences</string>
+    <string name="food_categories">Food Categories</string>
+    <string name="welcome_to_dinein">Welcome to DineIn</string>
+    <string name="get_the_table">Get the Table</string>
+    <string name="welcome_to_dinein_main">Welcome to DineIn!!!</string>
+    <string name="proceed">Proceed</string>
+    <string name="_available">Available</string>
+    <string name="maths">Maths</string>
+    <string name="find_table">Find Table</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="food_item_price">Food Item Price</string>
+    <string name="food_item_name">Food Item Name</string>
+    <string name="your_food_cart">Your Food Cart</string>
+    <string name="add_more_item">Add More Item</string>
+    <string name="place_order">Place Order</string>
+    <string name="total_item_amount">Total item amount</string>
+    <string name="your_bill">Your Bill</string>
+    <string name="feedback">Feedback</string>
+    <string name="quality_of_food">Quality of food</string>
+    <string name="food_quantity">Food Quantity</string>
+    <string name="food_quality">Food Quality</string>
+    <string name="service">Service</string>
+    <string name="price">Price</string>
+    <string name="ambience">Ambience</string>
+    <string name="submit_feedback">Submit Feedback</string>
+    <string name="thank_you_for_visiting_us">Thank You for visiting us!!</string>
+    <string name="provide_your_feedback_here">Provide your feedback here!</string>
+    <string name="customerservice_dinein_in"><u>customerservice@dinein.in</u></string>
+    <string name="exit">Exit</string>
+    <!-- Base application theme. -->
+    <style name="customRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/customratingstar</item>
+        <item name="android:minHeight">50dip</item>
+        <item name="android:maxHeight">50dip</item>
+    </style>
+</resources>

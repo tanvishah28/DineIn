@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- we need two arrays, one for the icons and one for the colors of the icons-->
+    <!-- icons array-->
+    <array name="icons">
+        <item>@drawable/ic_tables</item>
+        <item>@drawable/ic_menu_category</item>
+        <item>@drawable/ic_menu_item</item>
+        <item>@drawable/ic_staff_member</item>
+        <item>@drawable/ic_orders</item>
+    </array>
+    <!-- icons colors-->
+    <array name="colors">
+        <item>@color/colorTextPrimary</item>
+        <item>@color/colorTextPrimary</item>
+        <item>@color/colorTextPrimary</item>
+        <item>@color/colorTextPrimary</item>
+        <item>@color/colorTextPrimary</item>
+    </array>
+</resources>

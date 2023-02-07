@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context="com.example.restaurant_dinein.Admin_MenuItemScreenActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/activity_nav_toolbar" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@color/colorWhite">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp">
+
+                <Spinner
+                    android:id="@+id/spinner_MenuItemCategory"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:dropDownSelector="@color/colorWhite"
+                    android:spinnerMode="dropdown"
+                    android:textColor="@color/colorPrimary"
+                    android:background="@drawable/textview_border"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:gravity="center_vertical" />
+
+                <Spinner
+                    android:id="@+id/spinner_MenuItemStatus"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:dropDownSelector="@color/colorWhite"
+                    android:spinnerMode="dropdown"
+                    android:textColor="@color/colorPrimary"
+                    android:background="@drawable/textview_border"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:gravity="center_vertical" />
+
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/ListViewLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginHorizontal="10dp"
+                android:padding="4dp"
+                android:textFilterEnabled="true"
+                android:scrollbarThumbVertical="@color/colorWhite"
+                android:scrollbars="vertical"
+                android:fadeScrollbars="false"
+                android:scrollbarSize="10dp"
+                android:divider="@color/colorWhite"
+                android:dividerHeight="10sp"
+                android:paddingStart="5dp"
+                android:paddingLeft="5dp"
+                android:paddingEnd="5dp"
+                android:paddingRight="5dp"
+                android:forceHasOverlappingRendering="true"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/colorWhite" >
+
+        <include
+            layout="@layout/activity_manager_nav_main_drawer" />
+
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

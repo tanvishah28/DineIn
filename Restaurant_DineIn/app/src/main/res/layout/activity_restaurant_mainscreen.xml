@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never"
+    android:scrollbars="none"
+    tools:context="com.example.restaurant_dinein.Restaurant_WelcomeScreenActivity"
+    android:background="@drawable/welcome_screen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview_greet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:textColor="@color/colorTextPrimary"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/welcome_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview_greet"
+            android:textColor="@color/colorTextPrimary"
+            android:textAlignment="center"
+            android:text="@string/welcome_to_dinein"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/image_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/click_on_image_to_sign_in"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorTextSecondary"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            android:layout_below="@+id/welcome_message" />
+
+        <ImageView
+            android:id="@+id/chef_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/image_message"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/chef_image"/>
+
+        <TextView
+            android:id="@+id/text_chef_signin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/chef"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginStart="90dp"
+            android:layout_marginLeft="90dp"
+            android:layout_below="@+id/chef_image" />
+
+        <ImageView
+            android:id="@+id/manager_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/image_message"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@+id/chef_image"
+            android:src="@drawable/manager_image"/>
+
+        <TextView
+            android:id="@+id/text_manager_signin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/manager"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginStart="-170dp"
+            android:layout_marginLeft="-170dp"
+            android:layout_toRightOf="@+id/text_chef_signin"
+            android:layout_below="@+id/manager_image" />
+
+        <ImageView
+            android:id="@+id/admin_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="140dp"
+            android:layout_below="@+id/text_chef_signin"
+            android:src="@drawable/admin_image"/>
+
+        <TextView
+            android:id="@+id/text_admin_signin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/admin"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            android:layout_below="@+id/admin_image" />
+
+    </RelativeLayout>
+
+</ScrollView>

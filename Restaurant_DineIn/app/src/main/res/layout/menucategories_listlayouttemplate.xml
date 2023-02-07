@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    tools:context="com.example.restaurant_dinein.Admin_MenuCategory_List"
+    android:background="@color/colorGrayBlack"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/foodCategory_Name"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/foodCategory_Image"
+            android:paddingStart="20dp"
+            android:paddingLeft="20dp"
+            android:text="@string/food_category_name"
+            android:textColor="@color/colorTextPrimary"
+            android:layout_gravity="center_vertical"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/image_edit_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginStart="80dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/edit_icon" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:background="@color/colorGrayBlack"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="left" >
+
+        <ImageView
+            android:id="@+id/foodItem_Image"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_height="60dp"
+            android:layout_width="60dp"
+            android:src="@drawable/dinein_app_logo"/>
+
+        <TextView
+            android:id="@+id/textView_FoodItem"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:text="Food Item Name"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView_Qty"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:text="Qty: "
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_Price"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:text="Price"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>

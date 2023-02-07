@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.restaurant_dinein">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/dinein_app_logo"
+        android:label="@string/restaurant_dinein"
+        android:roundIcon="@mipmap/dinein_app_logo"
+        android:supportsRtl="true"
+        tools:replace="android:label"
+        android:theme="@style/Theme.Restaurant_DineIn">
+        <activity android:name="com.example.restaurant_dinein.Restaurant_SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.restaurant_dinein.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.restaurant_dinein.Restaurant_WelcomeScreenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.restaurant_dinein.Restaurant_LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.restaurant_dinein.Admin_MainScreenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.restaurant_dinein.Admin_MenuItemScreenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.restaurant_dinein.Admin_MenuItem_AddActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.restaurant_dinein.Admin_MenuCategoryScreenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.restaurant_dinein.Admin_MenuCategory_AddActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.restaurant_dinein.Admin_MenuCategory_UpdateDeleteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.restaurant_dinein.Admin_Table_AddActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.restaurant_dinein.Admin_TableScreenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.restaurant_dinein.Admin_Table_UpdateDeleteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.restaurant_dinein.Admin_MenuItem_UpdateDeleteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.restaurant_dinein.Admin_StaffScreenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.restaurant_dinein.Admin_Staff_AddActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.restaurant_dinein.Admin_Staff_UpdateDeleteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.restaurant_dinein.Admin_OrderScreenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.restaurant_dinein.Manager_MainScreenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.restaurant_dinein.Manager_MenuItemScreenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.restaurant_dinein.Manager_TableScreenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.restaurant_dinein.Manager_OrderScreenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.restaurant_dinein.Manager_FeedbackScreenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.restaurant_dinein.Manager_OrderScreenAssignChefActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.restaurant_dinein.Chef_OrdersActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.restaurant_dinein.Chef_OrderDetails_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.restaurant_dinein.Password_ChangeScreenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.restaurant_dinein.Chef_ServedOrdersActivity"
+            android:screenOrientation="portrait" />
+    </application>
+</manifest>

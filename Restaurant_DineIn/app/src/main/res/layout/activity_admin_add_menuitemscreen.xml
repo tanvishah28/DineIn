@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.example.restaurant_dinein.Admin_MenuItemScreenActivity"
+    android:background="@color/colorWhite">
+
+    <ImageView
+        android:id="@+id/upload_MenuItemimage"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:src="@drawable/image" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/upload_item_image"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/colorTextPrimary"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/item_name"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/colorTextPrimary"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/asterisk"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"/>
+
+        <EditText
+            android:id="@+id/editText_ItemName"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/textview_border"
+            android:textColorHint="@color/colorTextSecondary"
+            android:textCursorDrawable="@drawable/color_cursor" />
+        <requestFocus/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/item_price"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/colorTextPrimary"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/asterisk"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"/>
+
+        <EditText
+            android:id="@+id/editText_ItemPrice"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:inputType="number"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="35dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/textview_border"
+            android:textColorHint="@color/colorTextSecondary"
+            android:textCursorDrawable="@drawable/color_cursor" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/item_category"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/colorTextPrimary"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/asterisk"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"/>
+
+        <Spinner
+            android:id="@+id/spinner_ItemCategory"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:prompt="@string/item_category"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:dropDownSelector="@color/colorTextSecondary"
+            android:spinnerMode="dropdown"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/textview_border"
+            android:backgroundTint="@color/colorPrimary"
+            android:gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <Switch
+        android:id="@+id/switch_menuitem_available"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Available?   "
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:checked="true"
+        android:thumbTint="@color/colorTextPrimary"
+        android:trackTint="@color/colorTextSecondary"
+        android:textOn="Available"
+        android:textOff="Not Available" />
+
+    <Button
+        android:id="@+id/buttonAddItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/background_button"
+        android:text="@string/add_item"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
